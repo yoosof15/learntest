@@ -1,0 +1,5 @@
+Add and import your files to GIT
+
+git init
+git add .
+git commit -m "first commit"
