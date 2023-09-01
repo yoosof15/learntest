@@ -54,4 +54,11 @@ merge
 git merge نام برنچ
 
 if your merge has error Auto-merging
-{{ fix the place of error and then git add }}
+{{ fix the place of error and then git add and commit them }}
+
+a usefull log for merge
+git log --graph
+
+---------------- git stash ------------------------------------------------------
+
+
