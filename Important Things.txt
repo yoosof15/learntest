@@ -61,4 +61,23 @@ git log --graph
 
 ---------------- git stash ------------------------------------------------------
 
+watch all stashes
+git stash list
+
+add stash
+git stash save پیغام استش
+git stash 
+
+delete a stash
+git stash drop نام استش
+
+show stash
+git stash show نام استش
+git stash show -p نام استش 
+
+apply stash to your project
+git stash apply نام استش
+delete stash after apply it
+git stash pop نام استش
+
 
