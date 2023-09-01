@@ -52,3 +52,6 @@ git branch -d نام برنچ
 
 merge 
 git merge نام برنچ
+
+if your merge has error Auto-merging
+{{ fix the place of error and then git add }}
