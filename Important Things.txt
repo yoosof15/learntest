@@ -32,4 +32,21 @@ git reset {commit id}
 {{ and after that checkout them to change your files }}
 
 comback your commits without using checkout
-git reset --hard {commit id} 
+git reset --hard {commit id}
+
+
+--------------------- create branch and delete it and merge it to master---------------------
+
+watch branches
+git branch -a
+
+add branch 
+git branch نام برنچ
+git checkout -b نام برنچ
+
+swich between branches
+git checkout نام برنچ
+
+delete a branch
+git branch -d نام برنچ
+
