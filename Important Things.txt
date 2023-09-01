@@ -1,6 +1,35 @@
-Add and import your files to GIT
+-------------------------Add and import your files to GIT--------------------------------
 
 git init
 git add .
 git commit -m "first commit"
 git commit -m "change important Things" -a
+
+
+----------------------watch your commits and remove something from your add-------------------
+
+git log
+git log --oneline
+git log -1 --oneline
+git log --stat
+git log -p
+git rm --cached نام فایل
+
+
+--------------------------comeback to previuse your work or commit---------------------------
+
+for before you put the filse on stage
+git checkout -- نام فایل
+git checkout .
+
+for before you after the filse on stage
+git reset HEAD نام فایل
+git reset HEAD .
+{{ and after that checkout them to change your files }}
+
+comback your commits
+git reset {commit id} 
+{{ and after that checkout them to change your files }}
+
+comback your commits without using checkout
+git reset --hard {commit id} 
