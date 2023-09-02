@@ -1,4 +1,5 @@
 node_modules/
 *.txt 
 !test.txt 
+!ImportantThings.txt
 js/

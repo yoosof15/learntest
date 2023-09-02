@@ -1,0 +1,121 @@
+-------------------------Add and import your files to GIT--------------------------------
+
+git init
+git add .
+git commit -m "first commit"
+git commit -m "change important Things" -a
+
+
+----------------------watch your commits and remove something from your add-------------------
+
+git log
+git log --oneline
+git log -1 --oneline
+git log --stat
+git log -p
+git rm --cached نام فایل
+
+
+--------------------------comeback to previuse your work or commit---------------------------
+
+for before you put the filse on stage
+git checkout -- نام فایل
+git checkout .
+
+for before you after the filse on stage
+git reset HEAD نام فایل
+git reset HEAD .
+{{ and after that checkout them to change your files }}
+
+comback your commits
+git reset {commit id} 
+{{ and after that checkout them to change your files }}
+
+comback your commits without using checkout
+git reset --hard {commit id}
+
+
+--------------------- create branch and delete it and merge it to master---------------------
+
+watch branches
+git branch -a
+
+add branch 
+git branch نام برنچ
+git checkout -b نام برنچ
+
+swich between branches
+git checkout نام برنچ
+
+delete a branch
+git branch -d نام برنچ
+
+merge 
+git merge نام برنچ
+
+if your merge has error Auto-merging
+{{ fix the place of error and then git add and commit them }}
+
+a usefull log for merge
+git log --graph
+
+---------------- git stash ------------------------------------------------------
+
+
+watch all stashes
+git stash list
+
+add stash
+git stash save پیغام استش
+git stash 
+
+delete a stash
+git stash drop نام استش
+
+show stash
+git stash show نام استش
+git stash show -p نام استش 
+
+apply stash to your project
+git stash apply نام استش
+delete stash after apply it
+git stash pop نام استش
+
+
+-------------- git ignore -----------------------------------------------------
+
+add git ignore
+touch .gitignore
+
+node_modules/
+اعمال گیت ایگنور روی فولدر 
+*.txt 
+txt اعمال گیت ایگنور روی تمام فایل های
+!test.txt 
+به جز این فایل
+
+
+when have a file for a past do this
+git rm -r --cached .
+{{ and after that add them }}
+
+------- send the files in your repository---------------------------------------
+
+add remote
+git remote add   آدرس ریپازیتوری   نام لخواه 
+
+show list of remotes
+git remote
+
+put them on your repository 
+git push -u   نام برنچ    نام اوریجین 
+
+------- give the project from your repository or another repositories ----------------------------
+
+from your repository
+git pull نام اوریجین
+for be emphasis to pull
+git pull -f نام اوریجین
+
+from another repositories
+git clone نام پوشه دلخواه     آدرس ریپازیتوری  
