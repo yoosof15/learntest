@@ -80,4 +80,8 @@ git stash apply نام استش
 delete stash after apply it
 git stash pop نام استش
 
+--------------------------- git ignore ------------------------------------------
+
+add git ignore
+touch .gitignore
 
