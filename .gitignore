@@ -1,2 +1,4 @@
 node_modules/
-*.txt
+*.txt 
+!test.txt 
+js/
